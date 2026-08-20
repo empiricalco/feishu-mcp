@@ -1,0 +1,12 @@
+name = "feishu-base-mcp"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+# Secrets (set in dashboard: Worker -> Settings -> Variables and Secrets):
+#   FEISHU_APP_ID
+#   FEISHU_APP_SECRET
+#   MCP_AUTH_TOKEN
+#
+# Optional (only for Lark international tenants):
+# [vars]
+# FEISHU_BASE_URL = "https://open.larksuite.com"
